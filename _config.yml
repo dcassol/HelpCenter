@@ -1,0 +1,20 @@
+# Site settings
+title: "Girke Lab Help Center"
+email: danielac@ucr.edu
+description: "Repository of SOP and FAQ for our lab."
+baseurl: ""
+url: "http://girke.bioinformatics.ucr.edu/"
+github_username:  "girke-lab"
+color_theme:  "#0081ff"
+color_text:  "#fff"
+language:  "en"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+gems: [jekyll-paginate]
+paginate: 5
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
