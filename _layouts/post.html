@@ -10,7 +10,7 @@ layout: default
 <!-- breadcrumbs -->
 
 <div class="size margin min-height">
-  <article>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <!-- titles -->
     <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">{{ page.title }}</h1>
     <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
@@ -46,7 +46,9 @@ layout: default
     <!-- posts -->
 
     <!-- content -->
-    {{ content }}
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
+    </div>
 
     <!-- content -->
   </article>
