@@ -30,6 +30,7 @@ questions:
     image: "1.gif"
 ---
 ```
+
 ## Images
 
 Location: 
@@ -37,6 +38,10 @@ Location:
 /assets/img/
 ```
 
+## Icon names
+```
+/_sass/_icons.scss
+```
 
 ## License
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
